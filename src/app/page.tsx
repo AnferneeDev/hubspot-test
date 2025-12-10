@@ -4,7 +4,6 @@ import { useState } from "react";
 export default function Home() {
   const [status, setStatus] = useState("Idle");
 
-  // State for the input fields
   const [formData, setFormData] = useState({
     name: "Gustavo Demo",
     phone: "584125559999",
